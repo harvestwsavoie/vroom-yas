@@ -109,9 +109,9 @@ public class CarController : MonoBehaviour
             Debug.Log("braking: " + IsBraking + axleInfo.rightWheel.brakeTorque + axleInfo.rightWheel.brakeTorque);
         }
 
-        rb.velocity = Vector3.ClampMagnitude(rb.velocity, 41.0f);
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, 401.0f);
         var speedm = rb.velocity.magnitude;
-        speed = speedm * 3.6f * 0.621371f;
+        speed = speedm * 3.6f * 0.621371f / 10;
     
         Speedometer.text = (speed.ToString("f1") + "mp/h");
 
