@@ -106,7 +106,7 @@ public class CarController : MonoBehaviour
                 axleInfo.rightWheel.brakeTorque = 0;
 
             }
-            Debug.Log("braking: " + IsBraking + axleInfo.rightWheel.brakeTorque + axleInfo.rightWheel.brakeTorque);
+            // Debug.Log("braking: " + IsBraking + axleInfo.rightWheel.brakeTorque + axleInfo.rightWheel.brakeTorque);
         }
 
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, 401.0f);

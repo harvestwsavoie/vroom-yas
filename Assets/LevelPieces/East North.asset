@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88bbd60660d77c9448a1ab6a77fada2f, type: 3}
   m_Name: East North
   m_EditorClassIdentifier: 
-  chunkSize: {x: 10, y: 10}
+  chunkSize: {x: 1500, y: 1500}
   levelChunks:
   - {fileID: 586683432527947453, guid: fef2ca783579a5f46878bd5e8f24c6b1, type: 3}
   entryDirection: 1

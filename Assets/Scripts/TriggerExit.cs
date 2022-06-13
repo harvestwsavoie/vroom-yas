@@ -11,7 +11,7 @@ public class TriggerExit : MonoBehaviour
 
     private bool exited = false;
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         CarTag carTag = other.GetComponent<CarTag>();
         if (carTag != null)
@@ -21,6 +21,7 @@ public class TriggerExit : MonoBehaviour
                 exited = true;
                 OnChunkExited();
                 StartCoroutine(WaitAndDeactivate());
+                Debug.Log("working");
             }
 
 
