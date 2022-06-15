@@ -11,7 +11,7 @@ public class TriggerExit : MonoBehaviour
 
     private bool exited = false;
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         CarTag carTag = other.GetComponent<CarTag>();
         if (carTag != null)

@@ -1866,7 +1866,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 461789ba594a625449a6e423bcafa4ce, type: 2}
   firstChunk: {fileID: 11400000, guid: 629091d918fc54248ab0f6c48245bc16, type: 2}
   spawnOrigin: {x: 0, y: 60, z: 0}
-  chunksToSpawn: 2
+  chunksToSpawn: 5
 --- !u!4 &1016563218
 Transform:
   m_ObjectHideFlags: 0
@@ -3029,8 +3029,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1649350901}
-  m_LocalRotation: {x: 0.25666565, y: -4.5e-44, z: 1.1e-44, w: 0.9665003}
-  m_LocalPosition: {x: 1.401e-42, y: 140.36134, z: 1149.8175}
+  m_LocalRotation: {x: 0.25666565, y: -5.9e-44, z: 1.7e-44, w: 0.9665003}
+  m_LocalPosition: {x: 1.67e-43, y: 140.36134, z: 1149.8175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1223221326}
@@ -3954,8 +3954,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090241518}
-  m_LocalRotation: {x: 0.25666565, y: -4.5e-44, z: 1.1e-44, w: 0.9665003}
-  m_LocalPosition: {x: 1.401e-42, y: 140.36134, z: 1149.8175}
+  m_LocalRotation: {x: 0.25666565, y: -5.9e-44, z: 1.7e-44, w: 0.9665003}
+  m_LocalPosition: {x: 1.67e-43, y: 140.36134, z: 1149.8175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
